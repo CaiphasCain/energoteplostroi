@@ -1,0 +1,13 @@
+.two-columns__paragraph{
+    margin: 0;
+    line-height: 34px;
+    font-size: 24px;
+    padding-bottom: 30px;
+  }
+
+  @media (max-width: 1015px) {
+    .two-columns__paragraph{
+      line-height: 24px;
+      font-size: 18px;
+    }
+  }

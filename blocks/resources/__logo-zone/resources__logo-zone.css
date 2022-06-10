@@ -1,0 +1,17 @@
+.resources__logo-zone{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 217px;
+  list-style-type: none;
+  }
+
+  @media (max-width: 1015px) {
+    .resources__logo-zone {
+      flex-direction: column;
+      
+    }
+  }
+  

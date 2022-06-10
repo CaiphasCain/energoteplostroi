@@ -1,0 +1,20 @@
+
+.header {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    background-color: #ecf0f1;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    background-image: url(../../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* выше установили ограничения для секции */
+  }
+
+  @media (max-width: 581px) {
+    .header {
+      display: block;
+    }
+  }

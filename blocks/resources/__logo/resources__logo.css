@@ -1,0 +1,24 @@
+.resources__logo{
+  display: block;
+  width: 270px;
+  height: 38px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  }
+  
+#arzamas{
+  background-image: url(../../../images/images_sprint-2/logo/resources-arzamas.svg);
+}
+
+#n1{
+  background-image: url(../../../images/images_sprint-2/logo/resources-n1.svg);
+}
+
+#strelka{
+  background-image: url(../../../images/images_sprint-2/logo/resources-strelka.svg);
+}
+
+#polka{
+  background-image: url(../../../images/images_sprint-2/logo/resources-polka.svg);
+}

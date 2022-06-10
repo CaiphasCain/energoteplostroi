@@ -1,0 +1,18 @@
+.two-columns{
+    display: flex;
+    width: 80%;
+    padding-top: 100px;
+    justify-content: space-between;
+    
+  }
+  
+.two-columns__paragraph:last-of-type{
+    padding-bottom: 0;
+  }
+
+  @media (max-width: 1200px) {
+    .two-columns {
+      flex-direction: column;
+      
+    }
+  }

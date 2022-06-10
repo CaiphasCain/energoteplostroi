@@ -1,0 +1,11 @@
+.footer__column_content_copyright{
+    justify-content: space-between;
+    flex-basis: 711px;
+  }
+
+  @media (max-width: 1015px) {
+    .footer__column_content_copyright{
+      flex-basis: 11px;
+      
+    }
+  }

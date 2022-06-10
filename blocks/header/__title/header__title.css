@@ -1,0 +1,28 @@
+
+.header__title{
+    /* display: flex;
+    align-items: center; */
+    position: absolute;
+    top: 40%;
+    left: 0;
+    padding-left: 64px;
+    line-height: 96px;
+    font-size: 55px;
+    font-weight: 700;
+    max-width: 730px;
+    z-index: 2;
+    color: #ecf0f1;
+  }
+
+  @media (max-width: 1015px) {
+    .header__title {
+      line-height: 68px;
+      font-size: 38px;
+    }
+  }
+
+  @media (max-width: 581px) {
+    .header__title {
+      display: none;
+    }
+  }
