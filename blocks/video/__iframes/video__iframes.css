@@ -4,3 +4,9 @@
   
   list-style-type: none;
   }
+
+  @media (max-width: 660px) {
+    .video__iframes {
+      padding: 0;
+    }
+  }
