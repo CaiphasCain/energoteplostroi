@@ -1,6 +1,8 @@
-.footer__column-lin{
+.footer__column-li{
+    display: flex;
+    flex-direction: column;
     margin: 0;
-    max-height: 30px;
+    max-height: 162px;
     line-height: 30px;
     font-size: 18px;
     color: #ecf0f1;
@@ -9,18 +11,23 @@
     background-color: rgba(0, 0, 0, 0.25);
     padding: 10px;
     border-radius: 5px;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     z-index: 3;
   }
 
-  @media (max-width: 1215px) {
-    .footer__column-lin {
+  @media (max-width: 1200px) {
+    .footer__column-li {
       padding: 5px;
-      margin-bottom: 7px;
+      
     }
   }
   
-  
+  @media (max-width: 1015px) {
+    .footer__column-li {
+      margin-bottom: 7px;
+      
+    }
+  }
   /*
   @media (max-width: 768px) {
     .header {
